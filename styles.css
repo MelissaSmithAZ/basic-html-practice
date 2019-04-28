@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.borderFormat{
+    border: 2px solid black;
+    list-style-type: none;
+    padding: 5px;
+
+}
+
+.footer{
+    border: 2px solid black;
+    padding: 5px;
+    display: flex;
+    margin: auto;
+}
+
+.form {
+    padding: 5px;
+}
+
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    text-align: left;
+    /* padding: 35px; */
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+
+    
+}
+
+#table td, #table th {
+    padding: 8px;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+/* table td {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+} */
+
+#table tr:nth-child(even){background-color: #f2f2f2;}
+
+#table tr:hover {background-color: #ddd;}
