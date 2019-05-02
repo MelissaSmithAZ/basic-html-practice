@@ -1,3 +1,18 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+figcaption{
+    /* text-indent: 335px */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
 .container {
     display: flex;
     justify-content: space-evenly;
